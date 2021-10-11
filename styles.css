@@ -104,11 +104,18 @@ html, body {
     padding: 0 1.5em;
 }
 .section-header {
-    font-family: "Metal Mania";
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-underline-position:above;
     font-weight: normal;
     color: rgb(63, 63, 63);
     text-align: center;
     font-size: 2.5em;
+}
+
+.p-size-and-font {
+    font-size: 1em;
+    font-family: 'Assistant', sans-serif;
+    text-align: right;
 }
 
 .about-band-image {
