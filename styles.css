@@ -18,9 +18,9 @@
 video {
     position: absolute;
     width: 100%;
-    height: 73.45%;
-    z-index: -2;
-    object-fit: cover;
+    height: 80%;
+    z-index: -4;
+    object-fit: scale-down;
     background: fixed;
 }
 
@@ -33,7 +33,7 @@ html, body {
 .overlay {
     position: absolute;
     z-index: -1;
-    height: 73.45vh;
+    height: 80vh;
     width: 100vw;
     object-fit: cover;
     background-color: rgba(0, 0, 0, 0.363);
@@ -114,7 +114,7 @@ html, body {
 }
 
 .p-size-and-font {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: 'Assistant', sans-serif;
     text-align: right;
 }
